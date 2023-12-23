@@ -2,7 +2,7 @@ from django import forms
 
 from .models import ConversationMessage
 
-
+#Create form data
 class ConversationMessageForm(forms.ModelForm):
     class Meta:
         model = ConversationMessage
